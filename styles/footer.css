@@ -1,0 +1,42 @@
+.footer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    color: rgb(138, 138, 138);
+    background-color: rgb(23, 24, 26);
+}
+
+
+.county-row {
+    display: flex;
+    padding: 14px 30px;
+    border-bottom-color: rgb(52, 52, 52);
+    border-block-width: 2px;
+    border-bottom-style: solid;
+
+}
+
+.links-row {
+    padding: 14px 30px;
+    display: flex;
+}
+
+.left-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.space-div {
+    flex: 1;
+}
+
+.right-links {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
